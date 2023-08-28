@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- animate..css -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Borel&display=swap"
@@ -78,8 +84,13 @@
 
     <div class="header d-flex justify-content-center align-items-center">
       <div class="cont w-75 text-center text-white">
-        <h1 class="fw-bold my-3 myfont">GOOD DESIGN IS GOOD BUSINESS</h1>
-        <p class="lead mb-5">
+        <h1
+          class="fw-bold my-3 myfont wow animate__fadeInDown"
+          data-wow-delay=".3s"
+        >
+          GOOD DESIGN IS GOOD BUSINESS
+        </h1>
+        <p class="lead mb-5 wow animate__fadeInLeft" data-wow-delay=".4s">
           Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting
           Industry. Lorem Ipsum Has Been The Industry's Standard Dummy Text Ever
           Since The 1500s, When An Unknown Printer Took A Galley Of Type And
@@ -95,7 +106,10 @@
     <div class="main my-5 py-4">
       <div class="container">
         <div class="row g-4 justify-content-center">
-          <div class="col-xl-3 col-lg-4 col-md-6">
+          <div
+            class="col-xl-3 col-lg-4 col-md-6 wow animate__fadeInLeft"
+            data-wow-delay=".3s"
+          >
             <div class="item text-center">
               <i class="fa-solid fa-display text-dark fs-1"></i>
               <h3 class="my-3 text-danger fw-bold text-capitalize">
@@ -108,7 +122,10 @@
               </p>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
+          <div
+            class="col-xl-3 col-lg-4 col-md-6 wow animate__fadeInLeft"
+            data-wow-delay=".3s"
+          >
             <div class="item text-center">
               <i class="fa-solid fa-cart-plus text-dark fs-1"></i>
               <h3 class="my-3 text-danger fw-bold text-capitalize">
@@ -121,7 +138,10 @@
               </p>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
+          <div
+            class="col-xl-3 col-lg-4 col-md-6 wow animate__fadeInRight"
+            data-wow-delay=".3s"
+          >
             <div class="item text-center">
               <i class="fa-solid fa-thumbs-up text-dark fs-1"></i>
               <h3 class="my-3 text-danger fw-bold text-capitalize">
@@ -134,7 +154,10 @@
               </p>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-6">
+          <div
+            class="col-xl-3 col-lg-4 col-md-6 wow animate__fadeInRight"
+            data-wow-delay=".3s"
+          >
             <div class="item text-center">
               <i class="fa-solid fa-magnifying-glass-plus text-dark fs-1"></i>
               <h3 class="my-3 text-danger fw-bold text-capitalize">
@@ -160,7 +183,10 @@
           <div class="btn btn-info">More Works</div>
         </div>
         <div class="row g-3 justify-content-center py-5">
-          <div class="col-lg-4 col-md-6">
+          <div
+            class="col-lg-4 col-md-6 wow animate__fadeInLeft"
+            data-wow-delay=".3s"
+          >
             <div class="card">
               <img
                 src="images/Photoshop-cs6-tutorials-2013apr-42.jpg"
@@ -179,7 +205,10 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
+          <div
+            class="col-lg-4 col-md-6 wow animate__fadeInUp"
+            data-wow-delay=".3s"
+          >
             <div class="card">
               <img src="images/aaa.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
@@ -194,7 +223,10 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6">
+          <div
+            class="col-lg-4 col-md-6 wow animate__fadeInRight"
+            data-wow-delay=".3s"
+          >
             <div class="card">
               <img
                 src="images/Photoshop-cs6-tutorials-2013apr-42.jpg"
@@ -304,13 +336,13 @@
           <p class="text-danger lead">Mohamed Gamal / Web Designer</p>
         </div>
         <div class="icons my-4">
-          <div class="icon">
+          <div class="icon wow animate__jackInTheBox" data-wow-delay=".2s">
             <img src="images/character1.png" alt="" />
           </div>
-          <div class="icon">
+          <div class="icon wow animate__jackInTheBox" data-wow-delay=".3s">
             <img src="images/character2.png" alt="" />
           </div>
-          <div class="icon">
+          <div class="icon wow animate__jackInTheBox" data-wow-delay=".4s">
             <img src="images/character3.png" alt="" />
           </div>
         </div>
@@ -428,5 +460,9 @@
 
     <script src="js/all.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
